@@ -27,7 +27,7 @@ También hemos creado un estilo PrimerComponente.css donde pusimos dos clases (r
 
 SegundoComponente que además de mostrar su propio contenido, incluímos en él el PrimerComponente. De esta forma vemos que un componente puede llamar a otro componente, de esta forma vemos que un mismo componente puede reutilizarse varias veces en distintos lugares de la aplicación.
 
-3. La rama "Segunda sesión" se hizo para ver como funciona la navegación entre páginas usando React Router. Primero instalamos la librería "react-router-dom", y luego vemos como en el componente App definimos las rutas de la aplicación mediante los componentes Routes y Route. Cada ruta asocia una URL con un componente distinto, permitiendo crear una aplicación de una sola página (SPA) sin necesidad de recargar el nagvegador.
+3. La rama "segunda_sesion" se hizo para ver como funciona la navegación entre páginas usando React Router. Primero instalamos la librería "react-router-dom", y luego vemos como en el componente App definimos las rutas de la aplicación mediante los componentes Routes y Route. Cada ruta asocia una URL con un componente distinto, permitiendo crear una aplicación de una sola página (SPA) sin necesidad de recargar el nagvegador.
 
 - La ruta "/" carga HomePage, que hace de página principal.
 - La ruta "/blog" muestra BlogPage.
@@ -35,3 +35,4 @@ SegundoComponente que además de mostrar su propio contenido, incluímos en él 
 - La ruta "/search" carga SearchPage.
 - Se define la ruta comodín (*) que redirige automáticamente a la página principal usando Navigate, para manejar URLs no válidas.
 
+4. La rama "tercera_sesion" se hizo para comprobar el paso de parámetros entre componentes. Sea Componentes hermanos, Componentes padre e hijo, o componentes hijo e padre.
