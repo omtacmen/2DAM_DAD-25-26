@@ -7,13 +7,16 @@ export default function ComponentePasoDatosPadreAHijo_Hijo({padreAhijo}) {
         {
             // <h4>Llamada a ComponentePasoDatosPadreAHijo_Hijo</h4>
         }
-        
-        <div>
+
+        <fieldset className="miFieldset">
+          <legend>ComponentePasoDatosPadreAHijo_Hijo</legend>
+
+          <div>
             <p>Nombre: {padreAhijo.nombre}</p>
             <p>Apellidos: {padreAhijo.apellidos}</p>
             <p>Vidas: {padreAhijo.vidas}</p>
-        </div>
-
+          </div>
+        </fieldset>
     </div>
   )
 }

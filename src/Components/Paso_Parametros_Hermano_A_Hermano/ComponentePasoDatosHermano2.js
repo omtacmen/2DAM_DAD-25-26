@@ -6,8 +6,11 @@ export default function ComponentePasoDatosHermano2() {
 
   return (
     <div>
-        <h3>ComponentePasoDatosHermano2</h3>
+      <fieldset className="miFieldset">
+        <legend>ComponentePasoDatosHermano2</legend>
+
         <p>Mensaje: {mensaje}</p>
+      </fieldset>
     </div>
   )
 }

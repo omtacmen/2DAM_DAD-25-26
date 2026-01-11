@@ -26,21 +26,21 @@ function App() {
       <h1><center>Paso de parámetros entre componentes</center></h1>
       <hr></hr>
 
-      <div className="divStylePadreAhijo">
+      <div className="miDiv divStylePadreAhijo">
         <h2><center>__Paso de parametros entre Padre a Hijo__</center></h2>
         <ComponentePasoDatosPadreAHijo_Padre/>
       </div>
 
       <hr></hr>
 
-      <div className="divStyleHijoApadre">
+      <div className="miDiv divStyleHijoApadre">
         <h2><center>__Paso de parametros entre Hijo a Padre__</center></h2>
         <ComponentePasoDatosHijoAPadre_Padre/>
       </div>
       
       <hr></hr>
 
-      <div className="divStyleHermanos">
+      <div className="miDiv divStyleHermanos">
         <MensajeContexto.Provider value={{mensaje, setMensaje}}>
 
           <h2><center>__Paso de parámetros entre Componentes hermanos__</center></h2>

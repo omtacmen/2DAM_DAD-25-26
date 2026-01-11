@@ -15,11 +15,14 @@ export default function ComponentePasoDatosHijoAPadre_Padre() {
         {
             // <h3>Llamada a ComponentePasoDatosHijoAPadre_Padre</h3>
         }
-        
-        <p>Mensaje recibido: {datos}</p>
-        <div>
-            <ComponentePasoDatosHijoAPadre_Hijo enviarAlPadre={recibirMensaje} />
-        </div>
+        <fieldset className="miFieldset">
+          <legend>ComponentePasoDatosHijoAPadre_Padre</legend>
+
+          <p>Mensaje recibido: {datos}</p>
+          <div>
+              <ComponentePasoDatosHijoAPadre_Hijo enviarAlPadre={recibirMensaje} />
+          </div>
+        </fieldset>
 
     </div>
   )

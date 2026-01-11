@@ -24,11 +24,16 @@ export default function () {
          // Nos encontramos en el componente Padre y llamamos al componente Hijo
          // pasándole la función padreAhijo que devuelve los datos del objeto "datosAenviarALhijo"
         }
-        <ComponentePasoDatosPadreAHijo_Hijo padreAhijo={datos}/>
 
-        <div>
-            <button onClick={() => padreAhijo(datosAenviarALhijo)}>Enviar mensaje a hijo</button>
-        </div>
+        <fieldset className="miFieldset">
+          <legend>ComponentePasoDatosPadreAHijo_Padre</legend>
+
+          <ComponentePasoDatosPadreAHijo_Hijo padreAhijo={datos}/>
+
+          <div>
+              <button onClick={() => padreAhijo(datosAenviarALhijo)}>Enviar mensaje a hijo</button>
+          </div>
+        </fieldset>
 
     </div>
   )
