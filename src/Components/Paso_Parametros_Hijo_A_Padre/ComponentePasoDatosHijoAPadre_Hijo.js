@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function ComponentePasoDatosHijoAPadre_Hijo({ enviarAlPadre }) {
 
+  // Creamos la función para manejar el click del botón, cuando se haga click se envía el mensaje al padre
+  // usando la función recibida vía props desde el componente padre
   const manejarClick = () => {
     enviarAlPadre("Mensaje enviado desde el componente Hijo");
   }
